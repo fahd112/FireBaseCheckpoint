@@ -1,0 +1,155 @@
+.header {
+    height: 720px;
+    background-image: url(../res/webdev3.png);
+    color: antiquewhite;
+    filter: blur(5px);
+}
+
+#header-text {
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    left: 500px;
+    text-shadow: 5px 2px rgb(20, 11, 11);
+}
+
+
+
+
+#imagewrap {
+    width: 1200px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+div img {
+    margin: 20px;
+}
+
+
+
+body {
+    background-color: brown;
+}
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1em;
+    color: black;
+    list-style-type: none;
+}
+
+
+#mytext {
+    height: 150px;
+    width: 400px;
+}
+
+
+#element1 {
+    background-image: url("../res/box1.png");
+    
+
+}
+
+#element2 {
+    background-image: url("../res/box2.png");
+ 
+}
+
+
+#element3 {
+    background-image: url("../res/box3.png");
+   
+
+}
+
+
+#element4 {
+    background-image: url("../res/box4.png");
+   
+
+}
+
+#element5 {
+    background-image: url("../res/box5.png");
+    
+
+}
+
+
+#element6 {
+    background-image: url("../res/box6.png");
+  
+}
+
+
+#element7 {
+    background-image: url("../res/box7.png");
+    
+
+}
+
+#element8 {
+    background-image: url("../res/box8.png");
+   
+
+}
+
+
+#element9 {
+    background-image: url("../res/box9.png");
+   
+
+}
+
+.element {
+    background-color: white;
+    height: 230px;
+    width: 300px;
+    margin: 10px;
+    color: red;
+}
+.element button{
+    margin-top: 35%;
+}
+.element:hover {
+    opacity: 0.5;
+}
+
+.element button:hover {
+    cursor: pointer;
+}
+
+#fade {
+    display: none;
+}

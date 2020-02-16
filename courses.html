@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">GoMyCode</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <h1 id="header-text">COURSES</h1>
+    <div class="header"></div>
+    <center>
+        <div id="imagewrap">
+
+            <div class="element" id="element1"><button> view more</button></div>
+            <div class="element" id="element2"><button>view more</button></div>
+            <div class="element" id="element3"><button>view more</button></div>
+            <div class="element" id="element4"><button>view more</button></div>
+            <div class="element" id="element5"><button>view more</button></div>
+            <div class="element" id="element6"><button>view more</button></div>
+            <div class="element" id="element7"><button>view more</button></div>
+            <div class="element" id="element8"><button>view more</button></div>
+            <div class="element" id="element9"><button>view more</button></div>
+        </div>
+    </center>
+
+
+    <h2>feedback</h2>
+    <div class="container">
+        <br>
+        <button id="b" onclick="makeBold()">B</button>
+        <button onclick="makeItalic()">I</button>
+        <button onclick="makeUnderline()">Underline</button>
+        <select id="size" onchange="ChangeSize()">
+            <option>20px</option>
+            <option>30px</option>
+            <option>40px</option>
+        </select>
+
+
+        <select id="police" onchange="ChangePolice()">
+            <option>Arial</option>
+            <option>Verdana</option>
+            <option>Geneva</option>
+        </select>
+        <br>
+        <br>
+    </div>
+    <div class="container2"><textarea id="mytext" rows="3">Hello World</textarea></div>
+    <div id="fade">Hello world!</div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+</html>
